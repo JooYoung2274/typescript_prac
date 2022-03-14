@@ -5,6 +5,7 @@ let 네모: Square = { color: "red", width: 100 };
 //name, age 타입 둘다 만족해야함.
 // & 기호는 둘다 만족해주세요임. extends의 경우 복사해서 만드는 것임.
 //type은 중복선언이 안됨
+//거의 모든 라이브러리들은 interface로 작성됨
 type Animal = { name: string };
 type Cat = { age: number } & Animal;
 
