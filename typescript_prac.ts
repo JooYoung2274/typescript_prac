@@ -14,7 +14,7 @@ function 함수(x: number): number {
 
 //튜플타입 지정
 type Member = [number, boolean];
-let john: Member = [123, null];
+let john: Member = [123, true];
 
 //문자타입의 키값은 전부 문자타입의 밸류를 갖게 지정
 type Member2 = {
