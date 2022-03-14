@@ -11,7 +11,7 @@ let 숫자또는문자: SN = "1";
 function 함수(x: number): number {
   return x * 2;
 }
-
+//튜플타입 지정
 //튜플타입 지정
 type Member = [number, boolean];
 let john: Member = [123, true];
