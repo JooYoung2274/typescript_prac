@@ -30,4 +30,4 @@ class User2 {
 
 let user22 = new User2();
 // user22.familyName = "34"; //에러
-user22.changePrivate(); //변경됨
+user22.changePrivate(); //변경 가능
